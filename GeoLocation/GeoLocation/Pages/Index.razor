@@ -1,8 +1,271 @@
 ﻿@page "/"
+@inject HttpClient http
 
-<PageTitle>Index</PageTitle>
+<PageTitle>IP Geolocation</PageTitle>
 
-<h1>Geolocation Web App</h1>
+<h1 class="text-center mt-5 mb-4 fw-bold">IP Geolocation Search Tool</h1>
+        <!--Displaying the JSON data from the API -->
+        <div class="row row-content">
+            <div class="col-6">
+                IP
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.Ip
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Hostname
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.Hostname
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Continent Code
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.ContinentCode
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Continent Name
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.ContinentName
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Country Code (ISO 3166-1 alpha-2)
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.CountryCode2
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Country Code (ISO 3166-1 alpha-3)
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.CountryCode3
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Country Name
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.CountryName
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Country Flag
+            </div>
+            <div class="col-6 ps-4">
+                <img class="country__flag" src="@currentGeolocation.CountryFlag" alt="country__flag">
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Country Capital
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.CountryCapital
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                State/Province
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.StateProvince
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                District/County
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.District
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                City
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.City
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Zip Code
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.Zipcode
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Latitude & Longitude of Location
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.Latitude, @currentGeolocation.Longitude
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Geoname ID
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.GeonameId
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Calling Code
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.CallingCode
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Country TLD
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.CountryTld
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Is EU?
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.Is_eu
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Languages
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.Languages
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                ISP
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.Isp
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Organization
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.Organization
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                AS Number
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.Asn
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Currency
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.Currency?.Name
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Currency Code
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.Currency?.Code
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Currency Symbol
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.Currency?.Symbol
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Timezone
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.TimeZone?.Name
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Timezone Offset
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.TimeZone?.Offset
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Current Time
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.TimeZone?.CurrentTime
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Current Time Unix
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.TimeZone?.CurrentTimeUnix
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                Is DST?
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.TimeZone?.IsDst
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-6">
+                DST Savings
+            </div>
+            <div class="col-6 ps-4">
+                @currentGeolocation.TimeZone?.DstSavings
+            </div>
+        </div>
 
-Geolocation Web App.
 
+
+@code{
+    public Geolocation? currentGeolocation { get; set; }
+    public string? IP { get; set; }
+    private bool loadingData = false;
+
+    private async Task getIpGeolocation()
+    {
+        loadingData = true;
+        //send http get, receive IP info
+        var response = await http.GetAsync($"https://api.ipgeolocation.io/ipgeo?apiKey=446e433e35324ff6ba694bea7abafd71&ip={IP}");
+        currentGeolocation = await response.Content.ReadFromJsonAsync<Geolocation>();
+    }
+}
