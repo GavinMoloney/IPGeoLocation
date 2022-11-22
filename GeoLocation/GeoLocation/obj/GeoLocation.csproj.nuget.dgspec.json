@@ -52,6 +52,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.10, )"
+            },
+            "Twitter.Bootstrap": {
+              "target": "Package",
+              "version": "[3.0.1.1, )"
             }
           },
           "imports": [

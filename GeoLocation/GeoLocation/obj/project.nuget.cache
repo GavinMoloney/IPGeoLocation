@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Rn4OT4b3kqGaIx3g6LNmLtLAsLxGu16rm0CbLspby5uL4BQSS8jTkV5mygCeY/8Bgm0jHLUb177OGkalr6GUJw==",
+  "dgSpecHash": "ABA0i2/EgRAr3P8/CGgCzGsku6XqUuy/eXsNK0b/QQa07OMkxwkzaM2SgJLJxtoTmTc7HSY+O1jm1hIZagkwxA==",
   "success": true,
   "projectFilePath": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\GeoLocation.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\gavinmoloney\\.nuget\\packages\\bootstrap\\3.0.1\\bootstrap.3.0.1.nupkg.sha512",
+    "C:\\Users\\gavinmoloney\\.nuget\\packages\\jquery\\1.9.0\\jquery.1.9.0.nupkg.sha512",
     "C:\\Users\\gavinmoloney\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
     "C:\\Users\\gavinmoloney\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\microsoft.aspnetcore.components.6.0.10.nupkg.sha512",
     "C:\\Users\\gavinmoloney\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.10\\microsoft.aspnetcore.components.analyzers.6.0.10.nupkg.sha512",
@@ -33,6 +35,7 @@
     "C:\\Users\\gavinmoloney\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\gavinmoloney\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\gavinmoloney\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\gavinmoloney\\.nuget\\packages\\twitter.bootstrap\\3.0.1.1\\twitter.bootstrap.3.0.1.1.nupkg.sha512",
     "C:\\Users\\gavinmoloney\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.11\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.11.nupkg.sha512"
   ],
   "logs": []

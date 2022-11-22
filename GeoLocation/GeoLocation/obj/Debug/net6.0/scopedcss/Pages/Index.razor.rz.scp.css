@@ -1,0 +1,33 @@
+.row-content[b-jgko49odtd] {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+    color: #666;
+}
+
+.btn-search[b-jgko49odtd] {
+    color: #fff;
+    border-color: #0d6efd;
+    background-color: #0d6efd;
+}
+
+
+
+.btn-myip[b-jgko49odtd] {
+    color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+    .btn-myip:hover[b-jgko49odtd] {
+        border-color: #0d6efd;
+        color: #fff;
+        background-color: #0d6efd;
+    }
+
+.country_flag[b-jgko49odtd] {
+    max-width: 32px;
+    margin-bottom: 3px;
+    border-style: none;
+    margin-right: 15px;
+}

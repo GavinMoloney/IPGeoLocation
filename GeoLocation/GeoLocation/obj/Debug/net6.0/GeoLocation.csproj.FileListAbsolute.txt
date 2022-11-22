@@ -818,3 +818,4 @@ C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debu
 C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\refint\GeoLocation.dll
 C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\GeoLocation.pdb
 C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\ref\GeoLocation.dll
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\scopedcss\Pages\Index.razor.rz.scp.css

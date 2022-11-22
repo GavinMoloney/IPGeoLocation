@@ -1,0 +1,33 @@
+﻿.row-content {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+    color: #666;
+}
+
+.btn-search {
+    color: #fff;
+    border-color: #0d6efd;
+    background-color: #0d6efd;
+}
+
+
+
+.btn-myip {
+    color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+    .btn-myip:hover {
+        border-color: #0d6efd;
+        color: #fff;
+        background-color: #0d6efd;
+    }
+
+.country_flag {
+    max-width: 32px;
+    margin-bottom: 3px;
+    border-style: none;
+    margin-right: 15px;
+}

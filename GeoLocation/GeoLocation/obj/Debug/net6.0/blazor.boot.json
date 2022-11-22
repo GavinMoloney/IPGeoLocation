@@ -196,13 +196,13 @@
       "mscorlib.dll": "sha256-cx\/3nJhFns3tZhQNQOyiRyKJESKxOjLVufzWnri6KSA=",
       "netstandard.dll": "sha256-yWufW5W4SSfjocBcWTEDqnFwTd\/VYtLMc2Y9mPmlggc=",
       "System.Private.CoreLib.dll": "sha256-H009wzPwRoDZlwvpN4KLCsUwN7Y1AmjKB3PIEHA7ObQ=",
-      "GeoLocation.dll": "sha256-ISgljHmB33Uau6nGHrwQW88sFtBmsUP9WtTPbXLYdsM="
+      "GeoLocation.dll": "sha256-3zVVjpR\/qzBTHFgqe1PdWShw9SYF4gzGelFwUd+PPp0="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "GeoLocation.pdb": "sha256-3p0OmG9XdyDrxOdzM6e+Bts5SmciP8WLyl69htN7if4="
+      "GeoLocation.pdb": "sha256-4JfmOPvn3bkJSwj5EU\/OhK5VX0u6hwZR0ceniO0bzZs="
     },
     "runtime": {
       "dotnet.6.0.11.j77q8mrmz9.js": "sha256-F30V+6jU3jwJYFZoLuwMAqzTiOXu6q7zGgOdjYBofDI=",
