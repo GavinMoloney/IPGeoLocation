@@ -5,267 +5,296 @@
 
 <h1 class="text-center mt-5 mb-4 fw-bold">IP Geolocation Search Tool</h1>
         <!--Displaying the JSON data from the API -->
-        <div class="row row-content">
-            <div class="col-6">
-                IP
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.Ip
-            </div>
+@if (currentGeolocation != null && invalidIp == false)
+{
+    <div class="row row-content">
+        <div class="col-6">
+            IP
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Hostname
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.Hostname
-            </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.Ip
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Continent Code
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.ContinentCode
-            </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Hostname
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Continent Name
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.ContinentName
-            </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.Hostname
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Country Code (ISO 3166-1 alpha-2)
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.CountryCode2
-            </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Continent Code
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Country Code (ISO 3166-1 alpha-3)
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.CountryCode3
-            </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.ContinentCode
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Country Name
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.CountryName
-            </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Continent Name
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Country Flag
-            </div>
-            <div class="col-6 ps-4">
-                <img class="country_flag" src="@currentGeolocation.CountryFlag" alt="country_flag">
-            </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.ContinentName
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Country Capital
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.CountryCapital
-            </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Country Code (ISO 3166-1 alpha-2)
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                State/Province
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.StateProvince
-            </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.CountryCode2
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                District/County
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.District
-            </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Country Code (ISO 3166-1 alpha-3)
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                City
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.City
-            </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.CountryCode3
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Zip Code
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.Zipcode
-            </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Country Name
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Latitude & Longitude of Location
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.Latitude, @currentGeolocation.Longitude
-            </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.CountryName
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Geoname ID
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.GeonameId
-            </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Country Flag
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Calling Code
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.CallingCode
-            </div>
+        <div class="col-6 ps-4">
+            <img class="country_flag" src="@currentGeolocation.CountryFlag" alt="country_flag">
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Country TLD
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.CountryTld
-            </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Country Capital
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Is EU?
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.Is_eu
-            </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.CountryCapital
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Languages
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.Languages
-            </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            State/Province
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                ISP
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.Isp
-            </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.StateProvince
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Organization
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.Organization
-            </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            District/County
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                AS Number
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.Asn
-            </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.District
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Currency
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.Currency?.Name
-            </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            City
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Currency Code
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.Currency?.Code
-            </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.City
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Currency Symbol
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.Currency?.Symbol
-            </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Zip Code
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Timezone
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.TimeZone?.Name
-            </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.Zipcode
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Timezone Offset
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.TimeZone?.Offset
-            </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Latitude & Longitude of Location
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Current Time
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.TimeZone?.CurrentTime
-            </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.Latitude, @currentGeolocation.Longitude
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Current Time Unix
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.TimeZone?.CurrentTimeUnix
-            </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Geoname ID
         </div>
-        <div class="row row-content">
-            <div class="col-6">
-                Is DST?
-            </div>
-            <div class="col-6 ps-4">
-                @currentGeolocation.TimeZone?.IsDst
-            </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.GeonameId
         </div>
-        <div class="row row-content">
-            <div class="col-6">
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Calling Code
+        </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.CallingCode
+        </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Country TLD
+        </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.CountryTld
+        </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Is EU?
+        </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.Is_eu
+        </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Languages
+        </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.Languages
+        </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            ISP
+        </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.Isp
+        </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Organization
+        </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.Organization
+        </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            AS Number
+        </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.Asn
+        </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Currency
+        </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.Currency?.Name
+        </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Currency Code
+        </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.Currency?.Code
+        </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Currency Symbol
+        </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.Currency?.Symbol
+        </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Timezone
+        </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.TimeZone?.Name
+        </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Timezone Offset
+        </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.TimeZone?.Offset
+        </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Current Time
+        </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.TimeZone?.CurrentTime
+        </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Current Time Unix
+        </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.TimeZone?.CurrentTimeUnix
+        </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
+            Is DST?
+        </div>
+        <div class="col-6 ps-4">
+            @currentGeolocation.TimeZone?.IsDst
+        </div>
+    </div>
+    <div class="row row-content">
+        <div class="col-6">
                 DST Savings
             </div>
             <div class="col-6 ps-4">
                 @currentGeolocation.TimeZone?.DstSavings
             </div>
         </div>
+}
+@if (invalidIp)
+{
+    <div class=" shadow p-3 mb-5 rounded">
+        <div class="card-body text-center text-danger" style="font-size:20px;">
+            Provided IP address '@InvalidIP' is not valid.
+        </div>
+    </div>
+}
 
 
 
 @code{
-    public Geolocation? currentGeolocation { get; set; }
-    public string? IP { get; set; }
-    private bool loadingData = false;
 
+    public string? IP { get; set; }
+    public string? InvalidIP { get; set; }
+    public Geolocation? currentGeolocation { get; set; }
+    private bool invalidIp = false;
+    private bool loadingData = false;
+        
     private async Task getIpGeolocation()
     {
         loadingData = true;
         //send http get, receive IP info
         var response = await http.GetAsync($"https://api.ipgeolocation.io/ipgeo?apiKey=446e433e35324ff6ba694bea7abafd71&ip={IP}");
         currentGeolocation = await response.Content.ReadFromJsonAsync<Geolocation>();
+        if (response.IsSuccessStatusCode)
+        {
+            invalidIp = false;
+            currentGeolocation = await response.Content.ReadFromJsonAsync<Geolocation>();
+            if (String.IsNullOrEmpty(IP))
+            {
+                IP = currentGeolocation?.Ip;
+            }
+        }
+        else
+        {
+            InvalidIP = IP;
+            invalidIp = true;
+        }
+        loadingData = false;
     }
 }

@@ -8,6 +8,22 @@
           "jquery": "1.9.0"
         }
       },
+      "IpGeolocation.IpGeolocation/1.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/net6.0/IPGeolocation.dll": {
+            "related": ".runtimeconfig.json"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/IPGeolocation.dll": {
+            "related": ".runtimeconfig.json"
+          }
+        }
+      },
       "jQuery/1.9.0": {
         "type": "package"
       },
@@ -408,6 +424,19 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.JSInterop.WebAssembly.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -522,6 +551,22 @@
           "jquery": "1.9.0"
         }
       },
+      "IpGeolocation.IpGeolocation/1.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/net6.0/IPGeolocation.dll": {
+            "related": ".runtimeconfig.json"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/IPGeolocation.dll": {
+            "related": ".runtimeconfig.json"
+          }
+        }
+      },
       "jQuery/1.9.0": {
         "type": "package"
       },
@@ -922,6 +967,19 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.JSInterop.WebAssembly.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -1044,6 +1102,19 @@
         "content/fonts/glyphicons-halflings-regular.svg",
         "content/fonts/glyphicons-halflings-regular.ttf",
         "content/fonts/glyphicons-halflings-regular.woff"
+      ]
+    },
+    "IpGeolocation.IpGeolocation/1.0.10": {
+      "sha512": "XLMVS4IYJo2qY8obiFYMO8r+TeXOhmX/+MhlVzn+0xf5bTDkcZ+3QPQzSmrKDCedwzDfOckIz3mOIF9YZFx5cw==",
+      "type": "package",
+      "path": "ipgeolocation.ipgeolocation/1.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ipgeolocation.ipgeolocation.1.0.10.nupkg.sha512",
+        "ipgeolocation.ipgeolocation.nuspec",
+        "lib/net6.0/IPGeolocation.dll",
+        "lib/net6.0/IPGeolocation.runtimeconfig.json"
       ]
     },
     "jQuery/1.9.0": {
@@ -1669,6 +1740,33 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
       "sha512": "frQDfv0rl209cKm1lnwTgFPzNigy2EKk1BS3uAvHvlBVKe5cymGyHO+Sj+NLv5VF/AhHsqPIUUwya5oV4CHMUw==",
       "type": "package",
@@ -1840,6 +1938,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "IpGeoLocation.IpGeoLocation >= 1.0.10",
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.10",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.10",
       "Twitter.Bootstrap >= 3.0.1.1"
@@ -1889,6 +1988,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "IpGeoLocation.IpGeoLocation": {
+            "target": "Package",
+            "version": "[1.0.10, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[6.0.10, )"

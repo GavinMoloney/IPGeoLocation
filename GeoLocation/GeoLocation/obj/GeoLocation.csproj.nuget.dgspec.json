@@ -44,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "IpGeoLocation.IpGeoLocation": {
+              "target": "Package",
+              "version": "[1.0.10, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[6.0.10, )"

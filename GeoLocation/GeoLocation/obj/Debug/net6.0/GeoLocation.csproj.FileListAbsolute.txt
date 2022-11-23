@@ -810,7 +810,6 @@ C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debu
 C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\scopedcss\bundle\GeoLocation.styles.css
 C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\scopedcss\projectbundle\GeoLocation.bundle.scp.css
 C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\GeoLocation.csproj.CopyComplete
@@ -819,3 +818,11 @@ C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debu
 C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\GeoLocation.pdb
 C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\ref\GeoLocation.dll
 C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\scopedcss\Pages\Index.razor.rz.scp.css
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\bin\Debug\net6.0\wwwroot\_framework\IPGeolocation.dll
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\bin\Debug\net6.0\wwwroot\_framework\IPGeolocation.dll.gz
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\bin\Debug\net6.0\IPGeolocation.dll
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\build-gz\kbM8ndMJ.gz
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\build-gz\wrC4EgEj.gz
