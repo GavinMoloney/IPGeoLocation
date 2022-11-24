@@ -7,6 +7,13 @@
         <!--Displaying the JSON data from the API -->
 @if (currentGeolocation != null && invalidIp == false)
 {
+    <!-- embed google map, use latitude, longtitude variables-->
+    <iframe width="450"
+        height="250"
+        frameborder="0" style="border:0"
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAC5GBJ4IfJ5fs8syKOBaGjPVPzDKhR7rI&q=@currentGeolocation.latitude,@currentGeolocation.longitude">
+    </iframe>
     <div class="row row-content">
         <div class="col-6">
             IP
