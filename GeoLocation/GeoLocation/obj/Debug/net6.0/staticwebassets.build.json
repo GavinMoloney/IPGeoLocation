@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2ibIMQSgD8CeDrhgbn40aP6G8FPHLSiLV8Tlv9t/A2w=",
+  "Hash": "WT9taeOU7Wv6pjmxHgX7WFZ3asgJ2zKx8DWK7cBRy0Q=",
   "Source": "GeoLocation",
   "BasePath": "/",
   "Mode": "Root",
@@ -218,7 +218,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\gavinmoloney\\.nuget\\packages\\ipgeolocation.ipgeolocation\\1.0.10\\lib\\net6.0\\IPGeolocation.dll"
+      "OriginalItemSpec": "C:\\Users\\gavinmoloney\\.nuget\\packages\\ipgeolocation.ipgeolocation\\1.0.5\\lib\\netcoreapp2.1\\IPGeolocation.dll"
     },
     {
       "Identity": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -728,7 +728,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\gavinmoloney\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib\\netstandard2.0\\Newtonsoft.Json.dll"
+      "OriginalItemSpec": "C:\\Users\\gavinmoloney\\.nuget\\packages\\newtonsoft.json\\11.0.2\\lib\\netstandard2.0\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.AppContext.dll",
@@ -3553,6 +3553,23 @@
       "OriginalItemSpec": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js"
     },
     {
+      "Identity": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\obj\\Debug\\net6.0\\build-gz\\+sS7tn6Z.gz",
+      "SourceId": "GeoLocation",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/IPGeolocation.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\bin\\Debug\\net6.0\\wwwroot\\_framework\\IPGeolocation.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\bin\\Debug\\net6.0\\wwwroot\\_framework\\IPGeolocation.dll"
+    },
+    {
       "Identity": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\obj\\Debug\\net6.0\\build-gz\\+ve3O5dU.gz",
       "SourceId": "GeoLocation",
       "SourceType": "Computed",
@@ -3806,6 +3823,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Win32.Primitives.dll"
+    },
+    {
+      "Identity": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\obj\\Debug\\net6.0\\build-gz\\4s8Ks3FJ.gz",
+      "SourceId": "GeoLocation",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\obj\\Debug\\net6.0\\build-gz\\5CtirTvJ.gz",
@@ -5389,23 +5423,6 @@
       "OriginalItemSpec": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Private.Uri.dll"
     },
     {
-      "Identity": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\obj\\Debug\\net6.0\\build-gz\\kbM8ndMJ.gz",
-      "SourceId": "GeoLocation",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/IPGeolocation.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\bin\\Debug\\net6.0\\wwwroot\\_framework\\IPGeolocation.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\bin\\Debug\\net6.0\\wwwroot\\_framework\\IPGeolocation.dll"
-    },
-    {
       "Identity": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\obj\\Debug\\net6.0\\build-gz\\KCen1CXs.gz",
       "SourceId": "GeoLocation",
       "SourceType": "Computed",
@@ -6458,23 +6475,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ComponentModel.Primitives.dll"
-    },
-    {
-      "Identity": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\obj\\Debug\\net6.0\\build-gz\\wrC4EgEj.gz",
-      "SourceId": "GeoLocation",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Newtonsoft.Json.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\obj\\Debug\\net6.0\\build-gz\\wVARRjeJ.gz",

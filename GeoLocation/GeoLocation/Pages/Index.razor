@@ -1,5 +1,7 @@
 ﻿@page "/"
+using IpGeoLocation;
 @inject HttpClient http
+@inject IJSRuntime jsRuntime
 
 <PageTitle>IP Geolocation</PageTitle>
 
@@ -276,12 +278,14 @@
 
 @code{
 
+    //IPGeolocationAPI api = new IPGeolocationAPI("446e433e35324ff6ba694bea7abafd71"); doesn't work
+
     public string? IP { get; set; }
     public string? InvalidIP { get; set; }
     public Geolocation? currentGeolocation { get; set; }
     private bool invalidIp = false;
     private bool loadingData = false;
-        
+
     private async Task getIpGeolocation()
     {
         loadingData = true;
@@ -304,4 +308,13 @@
         }
         loadingData = false;
     }
+
+    //get ip 
+    public async Task GetMyIp()
+    {
+        var ipAddress = await jsRuntime.InvokeAsync<string>("getIpAddress");
+        IP = ipAddress;
+        await getIpGeolocation();
+    }
+
 }

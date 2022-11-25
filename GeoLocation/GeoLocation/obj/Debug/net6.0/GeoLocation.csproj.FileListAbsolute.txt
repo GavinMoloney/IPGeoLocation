@@ -824,5 +824,5 @@ C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\bin\Debu
 C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
 C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\bin\Debug\net6.0\IPGeolocation.dll
 C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\build-gz\kbM8ndMJ.gz
-C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\build-gz\wrC4EgEj.gz
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\build-gz\+sS7tn6Z.gz
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\build-gz\4s8Ks3FJ.gz
