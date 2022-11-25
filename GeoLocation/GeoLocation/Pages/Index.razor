@@ -1,11 +1,24 @@
 ﻿@page "/"
 using IpGeoLocation;
 @inject HttpClient http
-@inject IJSRuntime jsRuntime
+@inject IJSRuntime jsRuntime    
+<!--to allow calling js functions-->
 
 <PageTitle>IP Geolocation</PageTitle>
 
 <h1 class="text-center mt-5 mb-4 fw-bold">IP Geolocation Search Tool</h1>
+
+<div class="d-flex align-items-end justify-content-center">
+    <div class="w-50 me-3">
+        <label for="lblIP" class="form-label">Enter any IPv4, IPv6 address:</label>
+        <input type="search" @bind-value="IP" class="form-control rounded-pill" aria-label="Search" id="ipInput" placeholder="Search any IP address">
+    </div>
+    <div class="flex-shrink-0">
+        <button class="btn btn-search" type="button" @onclick="getIpGeolocation">Search</button>
+        <button class="btn btn-myip" type="button" @onclick="GetMyIp">My IP</button>
+    </div>
+</div>
+
         <!--Displaying the JSON data from the API -->
 @if (currentGeolocation != null && invalidIp == false)
 {
@@ -138,7 +151,7 @@ using IpGeoLocation;
     </div>
     <div class="row row-content">
         <div class="col-6">
-            Calling Code
+            International Dialling Code
         </div>
         <div class="col-6 ps-4">
             @currentGeolocation.CallingCode
@@ -154,7 +167,7 @@ using IpGeoLocation;
     </div>
     <div class="row row-content">
         <div class="col-6">
-            Is EU?
+            In EU?
         </div>
         <div class="col-6 ps-4">
             @currentGeolocation.Is_eu
@@ -186,7 +199,7 @@ using IpGeoLocation;
     </div>
     <div class="row row-content">
         <div class="col-6">
-            AS Number
+            Autonomous System Number
         </div>
         <div class="col-6 ps-4">
             @currentGeolocation.Asn
@@ -250,7 +263,7 @@ using IpGeoLocation;
     </div>
     <div class="row row-content">
         <div class="col-6">
-            Is DST?
+            Is Daylight Savings Time?
         </div>
         <div class="col-6 ps-4">
             @currentGeolocation.TimeZone?.IsDst
@@ -312,6 +325,7 @@ using IpGeoLocation;
     //get ip 
     public async Task GetMyIp()
     {
+        loadingData = true;
         var ipAddress = await jsRuntime.InvokeAsync<string>("getIpAddress");
         IP = ipAddress;
         await getIpGeolocation();
