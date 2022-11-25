@@ -46,7 +46,7 @@
           "dependencies": {
             "IpGeoLocation.IpGeoLocation": {
               "target": "Package",
-              "version": "[1.0.5, )"
+              "version": "[1.0.10, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
@@ -60,6 +60,10 @@
             "Twitter.Bootstrap": {
               "target": "Package",
               "version": "[3.0.1.1, )"
+            },
+            "bootstrap": {
+              "target": "Package",
+              "version": "[5.2.2, )"
             }
           },
           "imports": [
