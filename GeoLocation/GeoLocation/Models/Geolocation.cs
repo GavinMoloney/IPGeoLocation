@@ -20,7 +20,7 @@
         public string? CallingCode { get; set; }
         public string? CountryTld { get; set; }
         public string? Languages { get; set; }
-        public string? CountryFlag { get; set; }
+        public string CountryFlag { get; set; }
         public string? Isp { get; set; }
         public string? ConnectionType { get; set; }
         public string? Organization { get; set; }
