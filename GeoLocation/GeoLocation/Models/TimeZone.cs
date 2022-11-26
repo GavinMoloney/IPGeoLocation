@@ -2,11 +2,11 @@
 {
     public class TimeZone
     {
-        public string? Name { get; set; }
-        public int Offset { get; set; }
-        public string? CurrentTime { get; set; }
-        public double CurrentTimeUnix { get; set; }
-        public bool IsDst { get; set; }
-        public int DstSavings { get; set; }
+        public string? name { get; set; }
+        public int offset { get; set; }
+        public string? current_time { get; set; }
+        public double current_time_unix { get; set; }
+        public bool is_dst { get; set; }
+        public int dst_savings { get; set; }
     }
 }

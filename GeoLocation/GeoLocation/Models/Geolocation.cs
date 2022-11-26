@@ -2,31 +2,31 @@
 {
     public class Geolocation
     {
-        public string? Ip { get; set; }
-        public string? Hostname { get; set; }
-        public string? ContinentCode { get; set; }
-        public string? ContinentName { get; set; }
-        public string? CountryCode2 { get; set; }
-        public string? CountryCode3 { get; set; }
-        public string? CountryName { get; set; }
-        public string? CountryCapital { get; set; }
-        public string? StateProvince { get; set; }
-        public string? District { get; set; }
-        public string? City { get; set; }
-        public string? Zipcode { get; set; }
-        public double Latitude { get; set; }
-        public double Longitude { get; set; }
-        public bool Is_eu { get; set; }
-        public string? CallingCode { get; set; }
-        public string? CountryTld { get; set; }
-        public string? Languages { get; set; }
-        public string CountryFlag { get; set; }
-        public string? Isp { get; set; }
-        public string? ConnectionType { get; set; }
-        public string? Organization { get; set; }
-        public string? Asn { get; set; }
-        public int  GeonameId { get; set; }
-        public Currency? Currency { get; set; }
-        public TimeZone? TimeZone { get; set; }
+        public string? ip { get; set; }
+        public string? hostname { get; set; }
+        public string continent_code { get; set; }
+        public string continent_name { get; set; }
+        public string country_code2 { get; set; }
+        public string country_code3 { get; set; }
+        public string country_name { get; set; }
+        public string country_capital { get; set; }
+        public string state_prov { get; set; }
+        public string district { get; set; }
+        public string city { get; set; }
+        public string zipcode { get; set; }
+        public double latitude { get; set; }
+        public double longitude { get; set; }
+        public bool is_eu { get; set; }
+        public string calling_code { get; set; }
+        public string country_tld { get; set; }
+        public string languages { get; set; }
+        public string country_flag { get; set; }
+        public string isp { get; set; }
+        public string connection_type { get; set; }
+        public string organization { get; set; }
+        public string asn { get; set; }
+        public int geoname_id { get; set; }
+        public Currency currency { get; set; }
+        public TimeZone time_zone { get; set; }
     }
 }
