@@ -1,6 +1,6 @@
 ﻿namespace GeoLocation.Models
 {
-    public class Geolocation
+    public class Geolocation  //renamed to match json formats
     {
         public string? ip { get; set; }
         public string? hostname { get; set; }

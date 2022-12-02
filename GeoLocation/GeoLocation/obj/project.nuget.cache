@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "F4KQ+vSx+F1mP1DFuy7RSTcu8PnZrVNJZImQbG8xMRGqlyNKnq5Y3WO9LA/Ruw9pDoM0EhaShyedbwGcnnfgjw==",
+  "dgSpecHash": "FH8dHGE/1sL47jvN6ZX4w04tdrmoQAZ2SVXjo/iS4/aqt7YPlH7FA9MtRlYu8c/Bis7sX3pSAGGdWeicTyu7oQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\gavinmoloney\\Documents\\CA3\\GeoLocation\\GeoLocation\\GeoLocation\\GeoLocation.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gavinmoloney\\.nuget\\packages\\bootstrap\\5.2.2\\bootstrap.5.2.2.nupkg.sha512",
     "C:\\Users\\gavinmoloney\\.nuget\\packages\\ipgeolocation.ipgeolocation\\1.0.10\\ipgeolocation.ipgeolocation.1.0.10.nupkg.sha512",
     "C:\\Users\\gavinmoloney\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
     "C:\\Users\\gavinmoloney\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\microsoft.aspnetcore.components.6.0.10.nupkg.sha512",
@@ -36,7 +35,6 @@
     "C:\\Users\\gavinmoloney\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\gavinmoloney\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\gavinmoloney\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\gavinmoloney\\.nuget\\packages\\twitter.bootstrap\\3.0.1.1\\twitter.bootstrap.3.0.1.1.nupkg.sha512",
     "C:\\Users\\gavinmoloney\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.11\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.11.nupkg.sha512"
   ],
   "logs": []

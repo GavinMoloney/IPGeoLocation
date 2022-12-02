@@ -2,6 +2,7 @@
 
 @inject HttpClient http
 @inject IJSRuntime jsRuntime
+@*allows call of JS functions*@
 
 <PageTitle>IP Geolocation</PageTitle>
 
@@ -16,9 +17,10 @@
                     <label for="lblIP" class="form-label">Enter any IPv4, IPv6 address:</label>
                     <input type="search" @bind-value="IP" class="form-control rounded-pill" aria-label="Search" id="ipInput" placeholder="Search any IP address">
                 </div>
+                <!--search for an IP and search for users IP geolocation-->
                 <div class="flex-shrink-0">
                     <button class="btn btn-search" type="button" @onclick="getIpGeolocation">Search</button>
-                    <button class="btn btn-myip" type="button" @onclick="GetMyIp">My IP</button>
+                    <button class="btn btn-myip" type="button" @onclick="GetMyIp">My IP</button>  
                 </div>
             </div>
         </div>
@@ -34,6 +36,7 @@
 
     @if (currentGeolocation != null && invalidIp == false)
     {
+        <!--google maps-->
         <iframe width="450"
             height="250"
             frameborder="0" style="border:0"
@@ -290,6 +293,7 @@
             </div>
         </div>
     }
+    @*validation, the API returns error on invalid input*@
     @if (invalidIp)
     {
         <div class=" shadow p-3 mb-5 rounded">
@@ -301,15 +305,14 @@
 </div>
 
 
-
-
 @code {
     public string? IP { get; set; } = "";
-    public string? InvalidIP { get; set; } = "";
-    public Geolocation? currentGeolocation { get; set; }
-    private bool invalidIp = false;
-    private bool loadingData = false;
+    public string? InvalidIP { get; set; } = ""; //invalid variable
+    public Geolocation? currentGeolocation { get; set; } //lat/long variable
+    private bool invalidIp = false;  //bool for invalid IP address
+    private bool loadingData = false;  //check for loading data
 
+    //search 
     private async Task getIpGeolocation()
     {
         loadingData = true;
@@ -319,7 +322,7 @@
         {
             invalidIp = false;
             currentGeolocation = await response.Content.ReadFromJsonAsync<Geolocation>();
-            if (String.IsNullOrEmpty(IP))
+            if (string.IsNullOrEmpty(IP))
             {
                 IP = currentGeolocation?.ip;
             }
@@ -331,7 +334,8 @@
         }
         loadingData = false;
     }
-
+    
+    //loads users IP when launched
     protected override async Task OnInitializedAsync()
     {
         loadingData = true;
@@ -347,7 +351,8 @@
         }
         loadingData = false;
     }
-
+    
+    // get 
     private async Task GetMyIp()
     {
         loadingData = true;
@@ -357,5 +362,6 @@
         await getIpGeolocation();
         loadingData = false;
     }
+    
 }
 

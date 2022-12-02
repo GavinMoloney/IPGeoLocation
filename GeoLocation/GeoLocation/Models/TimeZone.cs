@@ -1,6 +1,6 @@
 ﻿namespace GeoLocation.Models
 {
-    public class TimeZone
+    public class TimeZone  //renamed to match json formats
     {
         public string? name { get; set; }
         public int offset { get; set; }
