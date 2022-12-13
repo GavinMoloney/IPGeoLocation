@@ -317,7 +317,7 @@
     {
         loadingData = true;
         //send an http get and get information about IP
-        var response = await http.GetAsync($"https://api.ipgeolocation.io/ipgeo?apiKey=446e433e35324ff6ba694bea7abafd71&ip={IP}");
+        var response = await http.GetAsync($"https://api.ipgeolocation.io/ipgeo?&ip={IP}");
         if (response.IsSuccessStatusCode)
         {
             invalidIp = false;
@@ -343,7 +343,7 @@
         var ipAddress = await jsRuntime.InvokeAsync<string>("getIpAddress")
             .ConfigureAwait(true);
         IP = ipAddress;
-        var response = await http.GetAsync($"https://api.ipgeolocation.io/ipgeo?apiKey=446e433e35324ff6ba694bea7abafd71&ip={IP}");
+        var response = await http.GetAsync($"https://api.ipgeolocation.io/ipgeo?&ip={IP}");
         if (response.IsSuccessStatusCode)
         {
             invalidIp = false;
