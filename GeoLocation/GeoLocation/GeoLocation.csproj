@@ -4,12 +4,22 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>ccb134f6-831e-45dc-8145-2b9c1984a791</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="PlayWrightTests\**" />
+    <Content Remove="PlayWrightTests\**" />
+    <EmbeddedResource Remove="PlayWrightTests\**" />
+    <None Remove="PlayWrightTests\**" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="IpGeoLocation.IpGeoLocation" Version="1.0.10" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.10" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.10" PrivateAssets="all" />
+    <PackageReference Include="Selenium.Support" Version="4.7.0" />
+    <PackageReference Include="Selenium.WebDriver.MSEdgeDriver" Version="107.0.1418.42" />
   </ItemGroup>
 
 </Project>

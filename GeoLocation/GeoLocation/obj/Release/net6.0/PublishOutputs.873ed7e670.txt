@@ -1,0 +1,1 @@
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Release\net6.0\browser-wasm\PubTmp\Out\web.config

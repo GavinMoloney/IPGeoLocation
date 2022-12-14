@@ -826,3 +826,11 @@ C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\bin\Debu
 C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\build-gz\kbM8ndMJ.gz
 C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\build-gz\wrC4EgEj.gz
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\bin\Debug\net6.0\wwwroot\_framework\WebDriver.dll
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\bin\Debug\net6.0\wwwroot\_framework\WebDriver.Support.dll
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\bin\Debug\net6.0\wwwroot\_framework\WebDriver.Support.dll.gz
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\bin\Debug\net6.0\wwwroot\_framework\WebDriver.dll.gz
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\bin\Debug\net6.0\WebDriver.Support.dll
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\bin\Debug\net6.0\WebDriver.dll
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\build-gz\B5FHjtqq.gz
+C:\Users\gavinmoloney\Documents\CA3\GeoLocation\GeoLocation\GeoLocation\obj\Debug\net6.0\build-gz\v5N1Zu+x.gz
